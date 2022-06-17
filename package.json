@@ -1,0 +1,18 @@
+{
+  "name": "udacity-weather-journal",
+  "version": "1.0.0",
+  "description": "Udacity Weather Journal project with nodeJS",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "",
+    "start": "node server.js"
+  },
+  "author": "Ahmed Atef",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  }
+}

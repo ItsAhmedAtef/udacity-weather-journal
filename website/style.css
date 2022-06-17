@@ -1,0 +1,65 @@
+body {
+    background-color: #0d1117;
+    color: #fff;
+    text-align: center;
+}
+
+.holder {
+    padding: 30px;
+}
+
+.holder label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+.holder input {
+    height: 50px;
+    width: 320px;
+    font-size: 20px;
+    border: none;
+}
+
+.holder textarea {
+    width: 320px;
+    font-size: 20px;
+}
+
+.holder input, .holder textarea {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+}
+
+.holder button {
+    display: block;
+    padding: 10px;
+    margin: 20px auto;
+    cursor: pointer;
+    background-color: #3b3b9d;
+    color: #fff;
+}
+
+#error {
+    color: red;
+}
+
+#loading {
+    display: none;
+}
+
+#entryHolder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#entryHolder div {
+  padding: 20px;
+}
+
+.val {
+    color: green;
+}
