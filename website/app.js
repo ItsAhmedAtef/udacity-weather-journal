@@ -19,7 +19,7 @@ const getProjectData = async () => {
         .then( data => {
             if (data.temp && data.date) {
                 temp.innerHTML = `Temperature: <span class="val">${data.temp}</span>`;
-                date.innerHTML = `Date: <span class="val">${data.date}`;
+                date.innerHTML = `Date: <span class="val">${data.date}</span>`;
             }
             if (data.content) {
                 content.innerHTML = `User Response: <span class="val">${data.content}</span>`;
